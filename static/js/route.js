@@ -29,7 +29,7 @@ features: [
         'coordinates': [-114.17,51.12]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 493"
+        'incidents': "Number of incidents: 493"
     }
 },
 {
@@ -39,7 +39,7 @@ features: [
         'coordinates': [-114.17,51.09]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 353"
+        'incidents': "Number of incidents: 353"
     }
 },
 {
@@ -49,7 +49,7 @@ features: [
         'coordinates': [-114.16,51.05]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 513"
+        'incidents': "Number of incidents: 513"
     }
 },
 {
@@ -59,7 +59,7 @@ features: [
         'coordinates': [-114.10,51.15]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 336"
+        'incidents': "Number of incidents: 336"
     }
 },
 {
@@ -69,7 +69,7 @@ features: [
         'coordinates': [-114.11,51.07]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 928"
+        'incidents': "Number of incidents: 928"
     }
 },
 {
@@ -79,7 +79,7 @@ features: [
         'coordinates': [-114.10,51.00]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 1228"
+        'incidents': "Number of incidents: 1228"
     }
 },
 {
@@ -89,7 +89,7 @@ features: [
         'coordinates': [-114.10,50.96]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 361"
+        'incidents': "Number of incidents: 361"
     }
 },
 {
@@ -99,7 +99,7 @@ features: [
         'coordinates': [-114.08,51.05]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 2346"
+        'incidents': "Number of incidents: 2346"
     }
 },
 {
@@ -109,7 +109,7 @@ features: [
         'coordinates': [-114.07,50.91]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 556"
+        'incidents': "Number of incidents: 556"
     }
 },
 {
@@ -119,7 +119,7 @@ features: [
         'coordinates': [-114.04,51.14]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 530"
+        'incidents': "Number of incidents: 530"
     }
 },
 {
@@ -129,7 +129,7 @@ features: [
         'coordinates': [-114.05,51.10]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 1223"
+        'incidents': "Number of incidents: 1223"
     }
 },
 {
@@ -139,7 +139,7 @@ features: [
         'coordinates': [-114.01,51.05]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 2021"
+        'incidents': "Number of incidents: 2021"
     }
 },
 {
@@ -149,7 +149,7 @@ features: [
         'coordinates': [-114.05,50.99]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 1757"
+        'incidents': "Number of incidents: 1757"
     }
 },
 {
@@ -159,7 +159,7 @@ features: [
         'coordinates': [-114.04,50.95]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 1024"
+        'incidents': "Number of incidents: 1024"
     }
 },
 {
@@ -169,7 +169,7 @@ features: [
         'coordinates': [-113.99,51.08]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 857"
+        'incidents': "Number of incidents: 857"
     }
 },
 {
@@ -179,7 +179,7 @@ features: [
         'coordinates': [-113.99,51.01]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 742"
+        'incidents': "Number of incidents: 742"
     }
 },
 {
@@ -189,7 +189,7 @@ features: [
         'coordinates': [-113.97,50.95]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 496"
+        'incidents': "Number of incidents: 496"
     }
 },
 {
@@ -199,7 +199,7 @@ features: [
         'coordinates': [-113.95,51.11]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 759"
+        'incidents': "Number of incidents: 759"
     }
 },
 {
@@ -209,7 +209,7 @@ features: [
         'coordinates': [-113.94,51.06]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 650"
+        'incidents': "Number of incidents: 650"
     }
 },
 {
@@ -219,7 +219,7 @@ features: [
         'coordinates': [-113.94,51.03]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 384"
+        'incidents': "Number of incidents: 384"
     }
 },
 {
@@ -229,7 +229,7 @@ features: [
         'coordinates': [-114.16,51.16]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 293"
+        'incidents': "Number of incidents: 293"
     }
 },
 {
@@ -239,7 +239,7 @@ features: [
         'coordinates': [-114.01,51.17]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 151"
+        'incidents': "Number of incidents: 151"
     }
 },
 {
@@ -249,7 +249,7 @@ features: [
         'coordinates': [-114.02,50.88]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 256"
+        'incidents': "Number of incidents: 256"
     }
 },
 {
@@ -259,7 +259,7 @@ features: [
         'coordinates': [-113.97,51.15]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 290"
+        'incidents': "Number of incidents: 290"
     }
 },
 {
@@ -269,7 +269,7 @@ features: [
         'coordinates': [-113.96,50.89]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 274"
+        'incidents': "Number of incidents: 274"
     }
 },
 {
@@ -279,7 +279,7 @@ features: [
         'coordinates': [-113.95,50.97]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 238"
+        'incidents': "Number of incidents: 238"
     }
 },
 {
@@ -289,7 +289,7 @@ features: [
         'coordinates': [-114.21,51.15]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 167"
+        'incidents': "Number of incidents: 167"
     }
 },
 {
@@ -299,7 +299,7 @@ features: [
         'coordinates': [-114.18,51.02]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 229"
+        'incidents': "Number of incidents: 229"
     }
 },
 {
@@ -309,7 +309,7 @@ features: [
         'coordinates': [-114.24,51.13]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 85"
+        'incidents': "Number of incidents: 85"
     }
 },
 {
@@ -319,7 +319,7 @@ features: [
         'coordinates': [-114.24,51.09]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 114"
+        'incidents': "Number of incidents: 114"
     }
 },
 {
@@ -329,7 +329,7 @@ features: [
         'coordinates': [-114.08,51.17]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 89"
+        'incidents': "Number of incidents: 89"
     }
 },
 {
@@ -339,7 +339,7 @@ features: [
         'coordinates': [-113.92,51.15]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 81"
+        'incidents': "Number of incidents: 81"
     }
 },
 {
@@ -349,7 +349,7 @@ features: [
         'coordinates': [-113.93,50.94]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 86"
+        'incidents': "Number of incidents: 86"
     }
 },
 {
@@ -359,7 +359,7 @@ features: [
         'coordinates': [-114.12,50.90]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 48"
+        'incidents': "Number of incidents: 48"
     }
 },
 {
@@ -369,7 +369,7 @@ features: [
         'coordinates': [-114.04,50.86]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 11"
+        'incidents': "Number of incidents: 11"
     }
 },
 {
@@ -379,7 +379,7 @@ features: [
         'coordinates': [-113.965,51.875]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 60"
+        'incidents': "Number of incidents: 60"
     }
 },
 {
@@ -389,7 +389,7 @@ features: [
         'coordinates': [-113.906,50.906]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 32"
+        'incidents': "Number of incidents: 32"
     }
 },
 {
@@ -399,7 +399,7 @@ features: [
         'coordinates': [-113.89,51.04]
     },
     'properties': {
-        'incidents': "Number of incidents happend: 23"
+        'incidents': "Number of incidents: 23"
     }
 }
 ]
@@ -481,7 +481,7 @@ if (!features.length) {
 var feature = features[0];
   
 popup.setLngLat(feature.geometry.coordinates)
-.setHTML('<p>' + feature.properties.incidents + '</p>')
+.setHTML('<h6>' + feature.properties.incidents + '</h6>')
 .addTo(map);
   
 map.getCanvas().style.cursor = features.length ? 'pointer' : '';
