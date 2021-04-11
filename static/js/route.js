@@ -1,5 +1,4 @@
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hlbGx5eGllbHQiLCJhIjoiY2tsb3lucWZ1MHhzYjJ4cG12djl1eWd3diJ9.9kcdVU9p_jrvgY_CCom0_g';
- 
 var map = new mapboxgl.Map({
 container: 'map', // container id
 style: 'mapbox://styles/shellyxielt/ckmbtifxg5g9p17qq7q1w1uc4',
@@ -21,14 +20,17 @@ map.scrollZoom.enable();
 map.addControl(directions, 'top-right');
  
 var incidents = {
-'type': 'FeatureCollection',
-'features': [
+type: 'FeatureCollection',
+features: [
 {
     'type': 'Feature',
     'geometry': {
         'type': 'Point',
         'coordinates': [-114.17,51.12]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 493"
+    }
 },
 {
     'type': 'Feature',
@@ -36,6 +38,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.17,51.09]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 353"
+    }
 },
 {
     'type': 'Feature',
@@ -43,6 +48,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.16,51.05]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 513"
+    }
 },
 {
     'type': 'Feature',
@@ -50,6 +58,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.10,51.15]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 336"
+    }
 },
 {
     'type': 'Feature',
@@ -57,6 +68,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.11,51.07]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 928"
+    }
 },
 {
     'type': 'Feature',
@@ -64,6 +78,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.10,51.00]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 1228"
+    }
 },
 {
     'type': 'Feature',
@@ -71,6 +88,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.10,50.96]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 361"
+    }
 },
 {
     'type': 'Feature',
@@ -78,6 +98,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.08,51.05]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 2346"
+    }
 },
 {
     'type': 'Feature',
@@ -85,6 +108,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.07,50.91]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 556"
+    }
 },
 {
     'type': 'Feature',
@@ -92,6 +118,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.04,51.14]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 530"
+    }
 },
 {
     'type': 'Feature',
@@ -99,6 +128,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.05,51.10]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 1223"
+    }
 },
 {
     'type': 'Feature',
@@ -106,6 +138,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.01,51.05]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 2021"
+    }
 },
 {
     'type': 'Feature',
@@ -113,6 +148,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.05,50.99]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 1757"
+    }
 },
 {
     'type': 'Feature',
@@ -120,6 +158,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.04,50.95]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 1024"
+    }
 },
 {
     'type': 'Feature',
@@ -127,6 +168,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.99,51.08]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 857"
+    }
 },
 {
     'type': 'Feature',
@@ -134,6 +178,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.99,51.01]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 742"
+    }
 },
 {
     'type': 'Feature',
@@ -141,6 +188,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.97,50.95]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 496"
+    }
 },
 {
     'type': 'Feature',
@@ -148,6 +198,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.95,51.11]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 759"
+    }
 },
 {
     'type': 'Feature',
@@ -155,6 +208,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.94,51.06]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 650"
+    }
 },
 {
     'type': 'Feature',
@@ -162,6 +218,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.94,51.03]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 384"
+    }
 },
 {
     'type': 'Feature',
@@ -169,6 +228,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.16,51.16]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 293"
+    }
 },
 {
     'type': 'Feature',
@@ -176,6 +238,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.01,51.17]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 151"
+    }
 },
 {
     'type': 'Feature',
@@ -183,6 +248,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.02,50.88]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 256"
+    }
 },
 {
     'type': 'Feature',
@@ -190,6 +258,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.97,51.15]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 290"
+    }
 },
 {
     'type': 'Feature',
@@ -197,6 +268,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.96,50.89]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 274"
+    }
 },
 {
     'type': 'Feature',
@@ -204,6 +278,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.95,50.97]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 238"
+    }
 },
 {
     'type': 'Feature',
@@ -211,6 +288,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.21,51.15]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 167"
+    }
 },
 {
     'type': 'Feature',
@@ -218,6 +298,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.18,51.02]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 229"
+    }
 },
 {
     'type': 'Feature',
@@ -225,6 +308,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.24,51.13]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 85"
+    }
 },
 {
     'type': 'Feature',
@@ -232,6 +318,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.24,51.09]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 114"
+    }
 },
 {
     'type': 'Feature',
@@ -239,6 +328,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.08,51.17]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 89"
+    }
 },
 {
     'type': 'Feature',
@@ -246,6 +338,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.92,51.15]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 81"
+    }
 },
 {
     'type': 'Feature',
@@ -253,6 +348,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.93,50.94]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 86"
+    }
 },
 {
     'type': 'Feature',
@@ -260,6 +358,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.12,50.90]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 48"
+    }
 },
 {
     'type': 'Feature',
@@ -267,6 +368,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-114.04,50.86]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 11"
+    }
 },
 {
     'type': 'Feature',
@@ -274,6 +378,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.965,51.875]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 60"
+    }
 },
 {
     'type': 'Feature',
@@ -281,6 +388,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.906,50.906]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 32"
+    }
 },
 {
     'type': 'Feature',
@@ -288,6 +398,9 @@ var incidents = {
         'type': 'Point',
         'coordinates': [-113.89,51.04]
     },
+    'properties': {
+        'incidents': "Number of incidents happend: 23"
+    }
 }
 ]
 };
@@ -295,19 +408,19 @@ var incidents = {
 var obstacle = turf.buffer(incidents, 0.25, { units: 'kilometers' });
  
 map.on('load', function (e) {
-map.addLayer({
-id: 'incidents',
-type: 'fill',
-source: {
-type: 'geojson',
-data: obstacle
-},
-layout: {},
-paint: {
-'fill-color': '#f03b20',
-'fill-opacity': 0.5,
-'fill-outline-color': '#f03b20'
-}
+    map.addLayer({
+        id: 'incidents',
+        type: 'fill',
+        source: {
+            type: 'geojson',
+            data: obstacle
+    },
+    layout: {},
+    paint: {
+        'fill-color': '#f03b20',
+        'fill-opacity': 0.5,
+        'fill-outline-color': '#f03b20'
+    }
 });
  
 //Create sources and layers for the returned routes.
@@ -337,6 +450,42 @@ paint: {
 }
 });
 }
+});
+
+map.on('load', function() {
+    map.addLayer({
+      id: 'incident',
+      type: 'symbol',
+      source: {
+        type: 'geojson',
+        data: incidents
+      },
+      layout: {
+        'icon-image': 'car-11',
+        'icon-allow-overlap': true
+      },
+      paint: { }
+    });
+  });
+
+var popup = new mapboxgl.Popup();
+
+map.on('mousemove', function(e) {
+  
+var features = map.queryRenderedFeatures(e.point, { layers: ['incident'] });
+if (!features.length) {
+    popup.remove();
+    return;
+}
+  
+var feature = features[0];
+  
+popup.setLngLat(feature.geometry.coordinates)
+.setHTML('<p>' + feature.properties.incidents + '</p>')
+.addTo(map);
+  
+map.getCanvas().style.cursor = features.length ? 'pointer' : '';
+  
 });
  
 directions.on('route', (e) => {
