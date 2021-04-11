@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block head%}
+  <title>Route Design</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+  <link rel="stylesheet" href="{{url_for('static', filename='styles/home.css') }}">
+{% endblock %}
+
+{% block body %}
+  <div id="mapid"></div>
+  <script src="{{url_for('static', filename='js/home.js') }}"></script>
+{% endblock %}
