@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hlbGx5eGllbHQiLCJhIjoiY2tsb3lucWZ1MHhzYjJ4c
 var map = new mapboxgl.Map({
 container: 'map', // container id
 style: 'mapbox://styles/shellyxielt/ckmbtifxg5g9p17qq7q1w1uc4',
-center: [-84.5, 38.05], // starting position
+center: [-114.06, 51.05], // starting position
 zoom: 11 // starting zoom
 });
  
@@ -20,97 +20,283 @@ geometries: 'geojson'
 map.scrollZoom.enable();
 map.addControl(directions, 'top-right');
  
-var clearances = {
+var incidents = {
 'type': 'FeatureCollection',
 'features': [
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.47426, 38.06673]
-},
-'properties': {
-'clearance': "13' 2"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.17,51.12]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.47208, 38.06694]
-},
-'properties': {
-'clearance': "13' 7"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.17,51.09]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.47184, 38.06694]
-},
-'properties': {
-'clearance': "13' 7"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.16,51.05]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.60485, 38.12184]
-},
-'properties': {
-'clearance': "13' 7"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.10,51.15]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.61905, 37.87504]
-},
-'properties': {
-'clearance': "12' 0"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.11,51.07]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.55946, 38.30213]
-},
-'properties': {
-'clearance': "13' 6"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.10,51.00]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.27235, 38.04954]
-},
-'properties': {
-'clearance': "13' 6"
-}
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.10,50.96]
+    },
 },
 {
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [-84.27264, 37.82917]
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.08,51.05]
+    },
 },
-'properties': {
-'clearance': "11' 6"
-}
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.07,50.91]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.04,51.14]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.05,51.10]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.01,51.05]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.05,50.99]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.04,50.95]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.99,51.08]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.99,51.01]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.97,50.95]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.95,51.11]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.94,51.06]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.94,51.03]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.16,51.16]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.01,51.17]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.02,50.88]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.97,51.15]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.96,50.89]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.95,50.97]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.21,51.15]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.18,51.02]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.24,51.13]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.24,51.09]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.08,51.17]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.92,51.15]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.93,50.94]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.12,50.90]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-114.04,50.86]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.965,51.875]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.906,50.906]
+    },
+},
+{
+    'type': 'Feature',
+    'geometry': {
+        'type': 'Point',
+        'coordinates': [-113.89,51.04]
+    },
 }
 ]
 };
  
-var obstacle = turf.buffer(clearances, 0.25, { units: 'kilometers' });
+var obstacle = turf.buffer(incidents, 0.25, { units: 'kilometers' });
  
 map.on('load', function (e) {
 map.addLayer({
-id: 'clearances',
+id: 'incidents',
 type: 'fill',
 source: {
 type: 'geojson',
@@ -215,7 +401,7 @@ heading.innerHTML = emoji + ' Route ' + (e.id + 1) + ' ' + collision;
 // Add details to the individual report.
 var details = report.appendChild(document.createElement('div'));
 details.innerHTML =
-'This route ' + detail + ' through an avoidance area.';
+'This route ' + detail + ' through an area with high traffic incidents.';
 report.appendChild(document.createElement('hr'));
 });
 });
