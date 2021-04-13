@@ -6,6 +6,9 @@ var map = new mapboxgl.Map({
     zoom: 10
 });
 
+var nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'top-left');
+
 map.on('load', function() {
     map.addSource('contours', {
         type: 'vector',
