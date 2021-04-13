@@ -89,5 +89,22 @@ def route():
         db.commit()
     return render_template("route.html")
 
+@app.route("/home2")
+def home2():
+    return render_template("home2.html")
+
+@app.route("/show2", methods=["POST","GET"]) 
+def show2():
+    data=""
+    if request.method=="POST":
+        res=requests.get("https://data.calgary.ca/resource/35ra-9556.geojson")
+        
+        if res.status_code==200:
+            data=res.json()
+        else:
+            data=""
+    
+    return render_template("show2.html", geocode=data, initial_page=False)
+
 if __name__== "__main__" :
     app.run()
