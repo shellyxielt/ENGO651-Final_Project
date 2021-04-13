@@ -34,6 +34,7 @@ You can find all of these libraries in the `requirements.txt` and install all of
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/14%20Traffic%20Incidents%20Popup.png)
 
 * You can get to the login page by clicking  **Login** on the Navbar to get access to route design function.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/8%20Login%20Page.png)
 
 * If you are new to the page, you need to get to the registration page by clicking `Don't have account?` in the login window first.
