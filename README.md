@@ -22,27 +22,34 @@ You can find all of these libraries in the `requirements.txt` and install all of
 
 ## How to use the webpage:
 * After installing `requirements.txt`, run `application.py` and get the server link `http://127.0.0.1:5000/`. Copy the link and paste it to browser to get to the home page of the website, where you can have a close look at the traffic volumes flow map of Calgary.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/4%20Home%20Page.png)
 
 * You can see the traffic incidents information of Calgary by clicking the **Incidents** button on the dropdown window of home. The number represents the number of incidents in the area, you can get more points by clicking the number.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/%E6%88%AA%E5%B1%8F2021-04-13%2018.52.12.png)
 
 * The traffic incidents information of each points can be shown after clicking on the marker.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/14%20Traffic%20Incidents%20Popup.png)
 
 * You can get to the login page by clicking  **Login** on the Navbar to get access to route design function.
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/8%20Login%20Page.png)
 
 * If you are new to the page, you need to get to the registration page by clicking `Don't have account?` in the login window first.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/9%20Registration%20Page.png)
 
 * After logging in, you can see the route design page, where you can see both the traffic volumes and incidents information. 
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/10%20Route%20Design%20Page.png)
 
 * The red circles with a car symbol are places with high traffic incidents rate. You can get the risk level and the number of incidents happend in the area by moving your mouse towards the point.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/15%20Route%20Design%20Popup.png)
 
 * You can get the recommended route by clicking A(Starting place) and B(Destination) on the map.
+
 ![Image text](https://raw.githubusercontent.com/shellyxielt/image/main/11%20Route%20Design%20Results.png)
 
 * You can logout by clicking the **Logout** on the Navbar.
