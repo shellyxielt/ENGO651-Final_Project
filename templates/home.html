@@ -12,6 +12,25 @@
 {% endblock %}
 
 {% block body %}
-  <div id="mapid"></div>
+  <div id="map"></div>
+  <div class="lenged">
+    <div style="font-weight: bold;">Traffic volumes for 2019</div>
+    <div class="lenged-item">
+      <div style="width: 20px;height: 20px;background-color:#5E9FC7 ;margin-right: 10px;"></div>
+      <div>1000-48250</div>
+    </div>
+    <div class="lenged-item">
+      <div style="width: 20px;height: 20px;background-color:#9AD17B ;margin-right: 10px;"></div>
+      <div>48250-95500</div>
+    </div>
+    <div class="lenged-item">
+      <div style="width: 20px;height: 20px;background-color:#EF6769 ;margin-right: 10px;"></div>
+      <div>95500-142750</div>
+    </div>
+    <div class="lenged-item">
+      <div style="width: 20px;height: 20px;background-color:#FCBA70 ;margin-right: 10px;"></div>
+      <div>142750-190000</div>
+    </div>
+  </div>
   <script src="{{url_for('static', filename='js/home.js') }}"></script>
 {% endblock %}
