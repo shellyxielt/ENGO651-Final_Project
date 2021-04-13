@@ -28,7 +28,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.17,51.12]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 493"
     }
 },
@@ -38,7 +39,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.17,51.09]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 353"
     }
 },
@@ -48,7 +50,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.16,51.05]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 513"
     }
 },
@@ -58,7 +61,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.10,51.15]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 336"
     }
 },
@@ -68,7 +72,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.11,51.07]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 928"
     }
 },
@@ -78,7 +83,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.10,51.00]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 1228"
     }
 },
@@ -88,7 +94,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.10,50.96]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 361"
     }
 },
@@ -98,7 +105,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.08,51.05]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 2346"
     }
 },
@@ -108,7 +116,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.07,50.91]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 556"
     }
 },
@@ -118,7 +127,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.04,51.14]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 530"
     }
 },
@@ -128,7 +138,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.05,51.10]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 1223"
     }
 },
@@ -138,7 +149,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.01,51.05]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 2021"
     }
 },
@@ -148,7 +160,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.05,50.99]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 1757"
     }
 },
@@ -158,7 +171,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.04,50.95]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 1024"
     }
 },
@@ -168,7 +182,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.99,51.08]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 857"
     }
 },
@@ -178,7 +193,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.99,51.01]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 742"
     }
 },
@@ -188,7 +204,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.97,50.95]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 496"
     }
 },
@@ -198,7 +215,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.95,51.11]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 759"
     }
 },
@@ -208,7 +226,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.94,51.06]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 650"
     }
 },
@@ -218,7 +237,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.94,51.03]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 384"
     }
 },
@@ -228,7 +248,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.16,51.16]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 293"
     }
 },
@@ -238,7 +259,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.01,51.17]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 151"
     }
 },
@@ -248,7 +270,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.02,50.88]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 256"
     }
 },
@@ -258,7 +281,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.97,51.15]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 290"
     }
 },
@@ -268,7 +292,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.96,50.89]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 274"
     }
 },
@@ -278,7 +303,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.95,50.97]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 238"
     }
 },
@@ -288,7 +314,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.21,51.15]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 167"
     }
 },
@@ -298,7 +325,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.18,51.02]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 229"
     }
 },
@@ -308,7 +336,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.24,51.13]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 85"
     }
 },
@@ -318,7 +347,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.24,51.09]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 114"
     }
 },
@@ -328,7 +358,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.08,51.17]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 89"
     }
 },
@@ -338,7 +369,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.92,51.15]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 81"
     }
 },
@@ -348,7 +380,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.93,50.94]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 86"
     }
 },
@@ -358,7 +391,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.12,50.90]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 48"
     }
 },
@@ -368,7 +402,8 @@ features: [
         'type': 'Point',
         'coordinates': [-114.04,50.86]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 11"
     }
 },
@@ -378,7 +413,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.965,51.875]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 60"
     }
 },
@@ -388,7 +424,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.906,50.906]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 32"
     }
 },
@@ -398,7 +435,8 @@ features: [
         'type': 'Point',
         'coordinates': [-113.89,51.04]
     },
-    'properties': {
+    'properties': { 
+        'risk':"Risk Level:",
         'incidents': "Number of incidents: 23"
     }
 }
@@ -481,7 +519,7 @@ if (!features.length) {
 var feature = features[0];
   
 popup.setLngLat(feature.geometry.coordinates)
-.setHTML('<h6>' + feature.properties.incidents + '</h6>')
+.setHTML('<h6>' + feature.properties.risk + '</h6><h6>' + feature.properties.incidents + '</h6>')
 .addTo(map);
   
 map.getCanvas().style.cursor = features.length ? 'pointer' : '';
@@ -550,7 +588,7 @@ heading.innerHTML = emoji + ' Route ' + (e.id + 1) + ' ' + collision;
 // Add details to the individual report.
 var details = report.appendChild(document.createElement('div'));
 details.innerHTML =
-'This route ' + detail + ' through an area with high traffic incidents.';
+'This route ' + detail + ' through an area with high traffic incidents rate.';
 report.appendChild(document.createElement('hr'));
 });
 });
