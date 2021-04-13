@@ -1,9 +1,37 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2hlbGx5eGllbHQiLCJhIjoiY2tsb3lucWZ1MHhzYjJ4cG12djl1eWd3diJ9.9kcdVU9p_jrvgY_CCom0_g';
+mapboxgl.accessToken ='pk.eyJ1IjoieWVrb25nc3VuIiwiYSI6ImNqem5meTh4MzAyMGgzbmx0ZGdoanBob3AifQ.gcnWxBHpvBwnZHCluPWiKw';
 var map = new mapboxgl.Map({
-container: 'map', // container id
-style: 'mapbox://styles/shellyxielt/ckmbtifxg5g9p17qq7q1w1uc4',
-center: [-114.06, 51.05], // starting position
-zoom: 11 // starting zoom
+container: "map",
+style: "mapbox://styles/mapbox/basic-v9",
+center: [-114.06, 51.05],
+zoom: 11
+});
+
+map.on('load', function() {
+    map.addSource('contours', {
+        type: 'vector',
+        url: 'mapbox://yekongsun.ahq0bna1'
+    });
+    
+    map.addLayer({
+        'id': 'contours',
+        "type": "line",
+        "source": "contours",
+        'paint': {
+            'line-color': {
+                property: 'volume',
+                stops: [
+                    [1000, '#69cbf5'],
+                    [48250, '#5E9FC7'],
+                    [95500, '#9AD17B'],
+                    [142750, '#EF6769'],
+                    [190000, '#FCBA70']
+                ]
+            },
+            'line-width': 2,
+            'line-opacity': 1,
+        },
+        "source-layer": "1-5pi9vx"
+    });
 });
  
 var nav = new mapboxgl.NavigationControl();
@@ -411,7 +439,7 @@ features: [
     'type': 'Feature',
     'geometry': {
         'type': 'Point',
-        'coordinates': [-113.965,51.875]
+        'coordinates': [-113.965,50.875]
     },
     'properties': { 
         'risk':"Risk Level: Low",

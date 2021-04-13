@@ -1,9 +1,34 @@
-var mymap = L.map('mapid').setView([51.05,-114.06], 11);
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/light-v9',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1Ijoic2hlbGx5eGllbHQiLCJhIjoiY2tsb3lucWZ1MHhzYjJ4cG12djl1eWd3diJ9.9kcdVU9p_jrvgY_CCom0_g'
-}).addTo(mymap);
+mapboxgl.accessToken = 'pk.eyJ1IjoieWVrb25nc3VuIiwiYSI6ImNqem5meTh4MzAyMGgzbmx0ZGdoanBob3AifQ.gcnWxBHpvBwnZHCluPWiKw';
+var map = new mapboxgl.Map({
+    container: "map",
+    style: "mapbox://styles/mapbox/light-v10",
+    center: [-114.06, 51.05],
+    zoom: 10
+});
+
+map.on('load', function() {
+    map.addSource('contours', {
+        type: 'vector',
+        url: 'mapbox://yekongsun.ahq0bna1'
+    });
+    map.addLayer({
+        'id': 'contours',
+        "type": "line",
+        "source": "contours",
+        'paint': {
+            'line-color': {
+                property: 'volume',
+                stops: [
+                    [1000, '#69cbf5'],
+                    [48250, '#5E9FC7'],
+                    [95500, '#9AD17B'],
+                    [142750, '#EF6769'],
+                    [190000, '#FCBA70']
+                ]
+            },
+            'line-width': 2,
+            'line-opacity': 1,
+        },
+        "source-layer": "1-5pi9vx"
+    });
+});
