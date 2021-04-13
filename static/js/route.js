@@ -29,7 +29,7 @@ features: [
         'coordinates': [-114.17,51.12]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 493"
     }
 },
@@ -40,7 +40,7 @@ features: [
         'coordinates': [-114.17,51.09]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 353"
     }
 },
@@ -51,7 +51,7 @@ features: [
         'coordinates': [-114.16,51.05]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 513"
     }
 },
@@ -62,7 +62,7 @@ features: [
         'coordinates': [-114.10,51.15]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 336"
     }
 },
@@ -73,7 +73,7 @@ features: [
         'coordinates': [-114.11,51.07]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 928"
     }
 },
@@ -84,7 +84,7 @@ features: [
         'coordinates': [-114.10,51.00]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 1228"
     }
 },
@@ -95,7 +95,7 @@ features: [
         'coordinates': [-114.10,50.96]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 361"
     }
 },
@@ -106,7 +106,7 @@ features: [
         'coordinates': [-114.08,51.05]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 2346"
     }
 },
@@ -117,7 +117,7 @@ features: [
         'coordinates': [-114.07,50.91]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 556"
     }
 },
@@ -128,7 +128,7 @@ features: [
         'coordinates': [-114.04,51.14]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 530"
     }
 },
@@ -139,7 +139,7 @@ features: [
         'coordinates': [-114.05,51.10]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 1223"
     }
 },
@@ -150,7 +150,7 @@ features: [
         'coordinates': [-114.01,51.05]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 2021"
     }
 },
@@ -161,7 +161,7 @@ features: [
         'coordinates': [-114.05,50.99]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 1757"
     }
 },
@@ -172,7 +172,7 @@ features: [
         'coordinates': [-114.04,50.95]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 1024"
     }
 },
@@ -183,7 +183,7 @@ features: [
         'coordinates': [-113.99,51.08]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 857"
     }
 },
@@ -194,7 +194,7 @@ features: [
         'coordinates': [-113.99,51.01]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 742"
     }
 },
@@ -205,7 +205,7 @@ features: [
         'coordinates': [-113.97,50.95]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High",
         'incidents': "Number of incidents: 496"
     }
 },
@@ -216,7 +216,7 @@ features: [
         'coordinates': [-113.95,51.11]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 759"
     }
 },
@@ -227,7 +227,7 @@ features: [
         'coordinates': [-113.94,51.06]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 650"
     }
 },
@@ -238,7 +238,7 @@ features: [
         'coordinates': [-113.94,51.03]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 384"
     }
 },
@@ -249,7 +249,7 @@ features: [
         'coordinates': [-114.16,51.16]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 293"
     }
 },
@@ -260,7 +260,7 @@ features: [
         'coordinates': [-114.01,51.17]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 151"
     }
 },
@@ -271,7 +271,7 @@ features: [
         'coordinates': [-114.02,50.88]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively High",
         'incidents': "Number of incidents: 256"
     }
 },
@@ -282,7 +282,7 @@ features: [
         'coordinates': [-113.97,51.15]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 290"
     }
 },
@@ -293,7 +293,7 @@ features: [
         'coordinates': [-113.96,50.89]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 274"
     }
 },
@@ -304,7 +304,7 @@ features: [
         'coordinates': [-113.95,50.97]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: High Relatively Low",
         'incidents': "Number of incidents: 238"
     }
 },
@@ -315,7 +315,7 @@ features: [
         'coordinates': [-114.21,51.15]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 167"
     }
 },
@@ -326,7 +326,7 @@ features: [
         'coordinates': [-114.18,51.02]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 229"
     }
 },
@@ -337,7 +337,7 @@ features: [
         'coordinates': [-114.24,51.13]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 85"
     }
 },
@@ -348,7 +348,7 @@ features: [
         'coordinates': [-114.24,51.09]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 114"
     }
 },
@@ -359,7 +359,7 @@ features: [
         'coordinates': [-114.08,51.17]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 89"
     }
 },
@@ -370,7 +370,7 @@ features: [
         'coordinates': [-113.92,51.15]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 81"
     }
 },
@@ -381,7 +381,7 @@ features: [
         'coordinates': [-113.93,50.94]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Relatively Low",
         'incidents': "Number of incidents: 86"
     }
 },
@@ -392,7 +392,7 @@ features: [
         'coordinates': [-114.12,50.90]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Low",
         'incidents': "Number of incidents: 48"
     }
 },
@@ -403,7 +403,7 @@ features: [
         'coordinates': [-114.04,50.86]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Low",
         'incidents': "Number of incidents: 11"
     }
 },
@@ -414,7 +414,7 @@ features: [
         'coordinates': [-113.965,51.875]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Low",
         'incidents': "Number of incidents: 60"
     }
 },
@@ -425,7 +425,7 @@ features: [
         'coordinates': [-113.906,50.906]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Low",
         'incidents': "Number of incidents: 32"
     }
 },
@@ -436,7 +436,7 @@ features: [
         'coordinates': [-113.89,51.04]
     },
     'properties': { 
-        'risk':"Risk Level:",
+        'risk':"Risk Level: Low",
         'incidents': "Number of incidents: 23"
     }
 }
